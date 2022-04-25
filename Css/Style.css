@@ -25,6 +25,9 @@
     text-align: right;
     grid-area: Header;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
 }
 .MainHeader ul{
     justify-content: space-around;
@@ -96,12 +99,36 @@
     padding: 30px;
     position: relative;
 }
-
 .img2{
     width: 300px;
     height: 300px;
     padding: 30px;
     position: relative;
+}
+.li-logo{
+    height: 56px;
+}
+.Logo-Animado{
+    width: 180px;
+    height: 50px;
+    animation-name:Logo;
+    animation-duration:2s;
+    animation-iteration-count:Infinite;
+}
+@keyframes Logo
+{
+    0%{
+        width: 180px;
+        height: 50px;
+    }
+    50%{
+        width: 201.6px;
+        height: 56px;
+    }
+    100%{
+        width: 180px;
+        height: 50px;
+    }
 }
 .Fotos{
     display: grid;
@@ -139,6 +166,7 @@
     .MainHeader
     {
         font-size: 1.2rem;
+        height:260px;
     }
 }
 @media only screen and (min-width: 340px) and (max-width: 480px) {
@@ -170,6 +198,7 @@
     .MainHeader
     {
         font-size: 1.4rem;
+        height:260px;
     }
 }
 @media only screen and (min-width: 481px) and (max-width:768px)  {
@@ -201,5 +230,25 @@
     .MainHeader
     {
         font-size: 1.5rem;
+        height:260px;
     }
+}
+@media only screen and (min-width: 769px) and (max-width:1379px)  {
+    .MainHeader nav ul li {
+        width: 160px;
+    }
+    .MainHeader
+    {
+        height:155px;
+    }
+}
+@media only screen and (min-width: 1380px) and (max-width:1580px)  {
+    .MainHeader nav ul li {
+        width: 160px;
+    }      
+}
+@media only screen and (min-width: 1581px) and (max-width:1655px)  {
+    .MainHeader nav ul li {
+        width: 180px;
+    }      
 }
