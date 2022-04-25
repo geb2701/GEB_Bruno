@@ -22,38 +22,39 @@
     font-size: 1.5rem;
     background-color: Black;    
     top:0px;
-    text-align: right;
     grid-area: Header;
     display: flex;
     justify-content: center;
     align-items: center;
     height:120px;
 }
-.MainHeader ul{
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+.MainHeader nav{
+    margin:0px auto;
+    width:100%;
 }
-.MainHeader li {
-    width: 200px auto;
+.MainHeader nav ul{
+    text-align: center;
+    padding: 10px auto;
+}
+.MainHeader nav ul li {
+    width: 200px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left:20px;
     padding-right:20px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
-.MainHeader li a{
+.MainHeader nav ul li a{
     color: white;  
     text-decoration:none;
-    position: flex;
     padding: 10px;
-    
+    justify-content: center;
+    align-items: center;
 }
-.MainHeader li a:hover{
-    color: lightsalmon ;  
+
+.MainHeader nav ul li a:hover{
+    color: lightsalmon;  
 }
 .Mainfooter
 {
@@ -93,6 +94,7 @@
 .Contenedor p{
     text-align: justify;
 }
+
 .img1{
     width: 300px;
     height: 300px;
@@ -162,6 +164,9 @@
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .MainHeader
     {
@@ -194,6 +199,9 @@
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .MainHeader
     {
@@ -217,7 +225,7 @@
     .MainBody{
         grid-template-columns: repeat(3fr);
         grid-template-rows: repeat(768px auto) ;
-    }
+    }   
     .Contenedor{
         margin-left: 60px;
         margin-right: 60px;
@@ -226,6 +234,9 @@
         margin-top: 5px;
         margin-bottom: 5px;
         padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .MainHeader
     {
