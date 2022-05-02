@@ -1,6 +1,7 @@
 .MainBody
 {
-    margin: 0px; 
+    margin: 0px;
+    margin-bottom: 20px; 
     padding: 0px;
     background-image:url(../Assets/Img/Fondo.png);
     background-attachment: fixed;
@@ -131,11 +132,14 @@
         height: 50px;
     }
 }
-.Fotos{
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 40rem;
-    grid-template-columns: repeat(auto-fill,min max(15rem,1fr));
+.menu{
+    align-items: center;
+}
+.menu-item{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 339px) {
@@ -279,4 +283,43 @@
     .MainHeader nav ul li {
         width: 180px;
     }      
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, 1);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    padding: 10px auto;
+}
+.card-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .75s;
+}
+.card-image:hover{
+    transform: scale(1.15);
+}
+.card-title{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, .5);
+}
+.card-text{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, .5);
+    text-align: left;
 }
