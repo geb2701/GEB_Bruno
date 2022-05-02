@@ -58,10 +58,10 @@
     color: lightsalmon;  
 }
 .wpp:hover{
-    color: green !important;  
+    color: #25d366 !important;  
 }
 .instagram:hover{
-    color: purple !important;  
+    color: #833AB4 !important; 
 }
 .Mainfooter
 {
@@ -359,4 +359,12 @@
 }
 .Formulario-mensaje{
     height: 300px;
+}
+.Formulario-enviar{
+    background-color: white;
+    border: 3px solid #555;
+    font-family:Courier, monospace;
+}
+.Formulario-enviar:hover{
+    background-color: greenyellow;
 }
