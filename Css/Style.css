@@ -29,12 +29,12 @@
     height:120px;
 }
 .MainHeader nav{
-    margin:0px auto;
+    margin:0px;
     width:100%;
 }
 .MainHeader nav ul{
     text-align: center;
-    padding: 10px auto;
+    padding: 10px;
 }
 .MainHeader nav ul li {
     width: 200px;
@@ -48,7 +48,6 @@
 .MainHeader nav ul li a{
     color: white;  
     text-decoration:none;
-    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -243,10 +242,28 @@
         font-size: 1.5rem;
         height:260px;
     }
-}
-@media only screen and (min-width: 769px) and (max-width:1379px)  {
     .MainHeader nav ul li {
-        width: 160px;
+        width: 140px auto;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:999px)  {
+    .MainHeader nav ul li {
+        width: 160px auto;
+        padding-left:50px auto;
+        padding-right:50px auto;
+    }
+    .MainHeader
+    {
+        height:155px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1379px)  {
+    .MainHeader nav ul li {
+        width: 160px auto;
+        padding-left:50px;
+        padding-right:50px;
     }
     .MainHeader
     {
