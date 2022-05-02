@@ -33,20 +33,39 @@
         </nav>
     </header>
     <div class="Contenedor">
-        <h1 class="TituloPrincipal">G.E.B Contacto</h1>
-        <img src="../Assets/Img/imagen1.jpg" class="img1">
-        <form action="#" method="post">
-            <input type="text" name="nombre" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="Nombre completo" autofocus title="Indique su Nombre" required/>
-            <input type="email" name="email" required placeholder="Correo Electronico" autofocus title="Indique su Correo Electronico" required/>
-            <input type="text" name="mensaje" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="¿Cual es su Mensaje?" autofocus title="¿Cual es su Mensaje?" />
-            <input type="submit" value="Enviar" title="Enviar">
-        </form>
+        <h1 class="TituloPrincipal">Contacto</h1>
+        <div class="card card-formulario">
+            <img src="../Assets/Img/contacto.jpg" class="card-image">
+            <form action="#" method="post" class="Formulario"></form>
+                <h3 class="card-title card-title-formulario">Ingrese Sus Datos</h3>
+                <h3 class="card-text card-text-formulario">
+                    Nombre:
+                    <br>
+                    <input type="text" name="nombre" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="Nombre completo" autofocus title="Indique su Nombre" class="Formulario-input" required/>
+                </h3>
+                <h3 class="card-text card-text-formulario">
+                    Correo Electronico:
+                    <br>
+                    <input type="email" name="email" required placeholder="Correo Electronico" autofocus title="Indique su Correo Electronico" class="Formulario-input" required/>
+                </h3>
+                <h3 class="card-text card-text-formulario">
+                    Mensaje:
+                    <br>
+                    <input type="text" name="mensaje" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="¿Cual es su Mensaje?" class="Formulario-input Formulario-mensaje" autofocus title="¿Cual es su Mensaje?" />
+                    
+                </h3>
+                <h3 class="card-text card-text-formulario">
+                    <input type="submit" value="Enviar" title="Enviar">
+                </h3>
+            </form>    
+                
+        </div>
+        
     </div>
-    <!-- En proceso de hacer una grilla para mejor esta seccion -->
     <footer  class="Mainfooter">
         <div>
-            <a href="#">Instagram</a>
-            <a href="#">Whatsapp</a>
+            <a href="#" class="instagram">Instagram</a>
+            <a href="#" class="wpp">Whatsapp</a>
         </div>
     </footer>
 </body>
