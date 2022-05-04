@@ -1,0 +1,24 @@
+
+
+.Mainfooter
+{
+    grid-area: Fotter;
+    font-family:Courier, monospace;
+    background-color: Black;    
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    bottom: 0px;
+    a{
+        color: white;  
+        text-decoration:none;
+        position: flex;
+        padding:10px;
+    }
+}
+.wpp:hover{
+    color: #25d366 !important;  
+}
+.instagram:hover{
+    color: #833AB4 !important; 
+}

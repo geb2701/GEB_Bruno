@@ -1,0 +1,21 @@
+.MainBody
+{
+    margin: 0px;
+    margin-bottom: 20px; 
+    padding: 0px;
+    background-attachment: fixed;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+	height: 100%;
+
+    color: White;
+    background-image:url(../Assets/Img/Fondo.png);
+    display: grid;
+    grid-template-areas: "Header" 
+                         "Contenedor"
+                         "Fotter";
+}
+

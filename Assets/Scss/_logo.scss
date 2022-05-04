@@ -1,0 +1,25 @@
+.li-logo{
+    height: 56px;
+}
+.Logo-Animado{
+    width: 180px;
+    height: 50px;
+    animation-name:Logo;
+    animation-duration:2s;
+    animation-iteration-count:Infinite;
+}
+@keyframes Logo
+{
+    0%{
+        width: 180px;
+        height: 50px;
+    }
+    50%{
+        width: 201.6px;
+        height: 56px;
+    }
+    100%{
+        width: 180px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,19 @@
+
+.Contenedor{
+    grid-area: Contenedor;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    font-family: Verdana, Arial, Helvetica;
+    text-align: center;
+    h1{
+        text-align: center;
+        color: White;
+    }
+    p{
+        text-align: justify;
+    }
+}
+.TituloPrincipal{
+    padding-top: 10px;
+}
