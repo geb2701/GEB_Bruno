@@ -10,7 +10,7 @@
   width: 100%;
   height: 100%;
   color: White;
-  background-image: url(../Assets/Img/Fondo.png);
+  background-image: url(../Img/Fondo.png);
   display: -ms-grid;
   display: grid;
       grid-template-areas: "Header"  "Contenedor" "Fotter";
