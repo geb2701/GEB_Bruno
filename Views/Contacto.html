@@ -34,33 +34,31 @@
     </header>
     <div class="Contenedor">
         <h1 class="TituloPrincipal">Contacto</h1>
-        <div class="card card-formulario">
+        <div class="card-formulario">
             <img src="../Assets/Img/contacto.jpg" class="card-image">
             <form action="#" method="post" class="Formulario"></form>
                 <h3 class="card-title card-title-formulario">Ingrese Sus Datos</h3>
-                <h3 class="card-text card-text-formulario">
-                    Nombre:
+                <div class="card-text card-text-formulario">
+                    <h3>Nombre:</h3>
                     <br>
                     <input type="text" name="nombre" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="Nombre completo" autofocus title="Indique su Nombre" class="Formulario-input" required/>
-                </h3>
-                <h3 class="card-text card-text-formulario">
-                    Correo Electronico:
+                </div>
+                <div class="card-text card-text-formulario">
+                    <h3>Correo Electronico:</h3>
                     <br>
                     <input type="email" name="email" required placeholder="Correo Electronico" autofocus title="Indique su Correo Electronico" class="Formulario-input" required/>
-                </h3>
-                <h3 class="card-text card-text-formulario">
-                    Mensaje:
+                </div>
+                <div class="card-text card-text-formulario">
+                    <h3>Mensaje:</h3>
                     <br>
-                    <input type="text" name="mensaje" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="¿Cual es su Mensaje?" class="Formulario-input Formulario-mensaje" autofocus title="¿Cual es su Mensaje?" />
+                    <textarea name="mensaje" required pattern="[A-Z,Ñ,Á,É,Í,Ó,Ú]{1}[a-zA-Z\sñ,á,é,í,ó,ú,ü]{1,}" placeholder="¿Cual es su Mensaje?" class="Formulario-input Formulario-mensaje" autofocus title="¿Cual es su Mensaje?"></textarea>
                     
-                </h3>
-                <h3 class="card-text card-text-formulario">
+                </div>
+                <div class="card-text card-text-formulario">
                     <input type="submit" class="Formulario-enviar" value="Enviar" title="Enviar">
-                </h3>
+                </div>
             </form>    
-                
         </div>
-        
     </div>
     <footer  class="Mainfooter">
         <div>

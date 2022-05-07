@@ -2,14 +2,11 @@
     font-family:Courier, monospace;
     background-color: white;
     border: 3px solid black;
-    width: 90%;
+    width: 80%;
 }
 .Formulario-input:focus {
     background-color: orange;
     border: 3px solid #555;
-}
-.Formulario-mensaje{
-    height: 300px;
 }
 .Formulario-enviar{
     background-color: white;
@@ -18,4 +15,22 @@
 }
 .Formulario-enviar:hover{
     background-color: greenyellow;
+}
+
+
+@media only screen and (min-width: 1px) and (max-width:500px)  {
+    .Formulario-mensaje{
+        height: 500px;
+    
+    }
+}
+@media only screen and (min-width: 501px) and (max-width:1000px)  {
+    .Formulario-mensaje{
+        height: 300px;
+    
+    }
+}
+.Formulario-mensaje{
+    height: 100px;
+
 }
