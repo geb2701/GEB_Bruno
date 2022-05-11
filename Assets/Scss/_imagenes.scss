@@ -1,0 +1,23 @@
+$cuadrado: 
+(
+    tamaño: 300px,
+    padding: 30px,
+);
+$posicion: relative;
+
+
+.standard{
+    width: map-get($cuadrado, tamaño);
+    height: map-get($cuadrado, tamaño);
+    padding: map-get($cuadrado, padding);
+    position: $posicion;
+}
+
+.img1{
+    @extend .standard;
+} 
+
+.img2{
+    @extend .standard;
+    margin:30px
+}

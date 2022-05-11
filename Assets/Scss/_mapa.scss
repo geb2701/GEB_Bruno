@@ -1,0 +1,10 @@
+@mixin Mapa ($width,$height,$padding,$posicion) { 
+    width: $width;
+    height: $height;
+    padding: $padding;
+    position: $posicion;
+}
+
+.Mapa{
+    @include Mapa (90%,800px,10px,relative)
+}
