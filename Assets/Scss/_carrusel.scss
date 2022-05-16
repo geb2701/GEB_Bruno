@@ -44,25 +44,8 @@
     }
 }
 
-@mixin Media-carrusel ($width) { 
-    .carrusel {
-        ul {
-            max-width: $width - 200px;
-        }
-    }
-    .carrusel-fotos {
-        li{
-            img {
-                width: $width - 200px;
-                height: $width*450/1400;
-            }
-        }
-        
-    }
-}
-
 @mixin Media-carrusel ($width, $resta, $padding) {
-    @media only screen and (min-width: ($width - $resta)) and (max-width:($width - 1px))  {
+    @media only screen and (min-width: ($width - $resta)) and (max-width:($width))  {
         .carrusel {
             ul {
                 max-width: $width - $resta - $padding;

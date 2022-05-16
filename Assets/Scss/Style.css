@@ -596,7 +596,7 @@
   border: none;
 }
 
-@media only screen and (min-width: 1550px) and (max-width: 1599px) {
+@media only screen and (min-width: 1550px) and (max-width: 1600px) {
   .carrusel ul {
     max-width: 1350px;
   }
@@ -606,7 +606,7 @@
   }
 }
 
-@media only screen and (min-width: 1500px) and (max-width: 1549px) {
+@media only screen and (min-width: 1500px) and (max-width: 1550px) {
   .carrusel ul {
     max-width: 1300px;
   }
@@ -616,7 +616,7 @@
   }
 }
 
-@media only screen and (min-width: 1450px) and (max-width: 1499px) {
+@media only screen and (min-width: 1450px) and (max-width: 1500px) {
   .carrusel ul {
     max-width: 1250px;
   }
@@ -626,7 +626,7 @@
   }
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1449px) {
+@media only screen and (min-width: 1400px) and (max-width: 1450px) {
   .carrusel ul {
     max-width: 1200px;
   }
@@ -636,7 +636,7 @@
   }
 }
 
-@media only screen and (min-width: 1350px) and (max-width: 1399px) {
+@media only screen and (min-width: 1350px) and (max-width: 1400px) {
   .carrusel ul {
     max-width: 1150px;
   }
@@ -646,7 +646,7 @@
   }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1349px) {
+@media only screen and (min-width: 1300px) and (max-width: 1350px) {
   .carrusel ul {
     max-width: 1100px;
   }
@@ -656,7 +656,7 @@
   }
 }
 
-@media only screen and (min-width: 1250px) and (max-width: 1299px) {
+@media only screen and (min-width: 1250px) and (max-width: 1300px) {
   .carrusel ul {
     max-width: 1050px;
   }
@@ -666,7 +666,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1249px) {
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
   .carrusel ul {
     max-width: 1000px;
   }
@@ -676,7 +676,7 @@
   }
 }
 
-@media only screen and (min-width: 1150px) and (max-width: 1199px) {
+@media only screen and (min-width: 1150px) and (max-width: 1200px) {
   .carrusel ul {
     max-width: 950px;
   }
@@ -686,7 +686,7 @@
   }
 }
 
-@media only screen and (min-width: 1100px) and (max-width: 1149px) {
+@media only screen and (min-width: 1100px) and (max-width: 1150px) {
   .carrusel ul {
     max-width: 900px;
   }
@@ -696,7 +696,7 @@
   }
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1099px) {
+@media only screen and (min-width: 1050px) and (max-width: 1100px) {
   .carrusel ul {
     max-width: 850px;
   }
@@ -706,7 +706,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1049px) {
+@media only screen and (min-width: 1000px) and (max-width: 1050px) {
   .carrusel ul {
     max-width: 800px;
   }
@@ -716,7 +716,7 @@
   }
 }
 
-@media only screen and (min-width: 950px) and (max-width: 999px) {
+@media only screen and (min-width: 950px) and (max-width: 1000px) {
   .carrusel ul {
     max-width: 750px;
   }
@@ -726,7 +726,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 949px) {
+@media only screen and (min-width: 900px) and (max-width: 950px) {
   .carrusel ul {
     max-width: 700px;
   }
@@ -736,7 +736,7 @@
   }
 }
 
-@media only screen and (min-width: 850px) and (max-width: 899px) {
+@media only screen and (min-width: 850px) and (max-width: 900px) {
   .carrusel ul {
     max-width: 650px;
   }
@@ -746,7 +746,7 @@
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 849px) {
+@media only screen and (min-width: 800px) and (max-width: 850px) {
   .carrusel ul {
     max-width: 600px;
   }
@@ -756,7 +756,7 @@
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 799px) {
+@media only screen and (min-width: 769px) and (max-width: 800px) {
   .carrusel ul {
     max-width: 569px;
   }
@@ -766,7 +766,7 @@
   }
 }
 
-@media only screen and (min-width: 741px) and (max-width: 768px) {
+@media only screen and (min-width: 741px) and (max-width: 769px) {
   .carrusel ul {
     max-width: 621px;
   }
@@ -776,7 +776,7 @@
   }
 }
 
-@media only screen and (min-width: 721px) and (max-width: 740px) {
+@media only screen and (min-width: 721px) and (max-width: 741px) {
   .carrusel ul {
     max-width: 601px;
   }
@@ -786,7 +786,7 @@
   }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 720px) {
+@media only screen and (min-width: 701px) and (max-width: 721px) {
   .carrusel ul {
     max-width: 581px;
   }
@@ -796,7 +796,7 @@
   }
 }
 
-@media only screen and (min-width: 681px) and (max-width: 700px) {
+@media only screen and (min-width: 681px) and (max-width: 701px) {
   .carrusel ul {
     max-width: 561px;
   }
@@ -806,7 +806,7 @@
   }
 }
 
-@media only screen and (min-width: 661px) and (max-width: 680px) {
+@media only screen and (min-width: 661px) and (max-width: 681px) {
   .carrusel ul {
     max-width: 541px;
   }
@@ -816,7 +816,7 @@
   }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 660px) {
+@media only screen and (min-width: 641px) and (max-width: 661px) {
   .carrusel ul {
     max-width: 521px;
   }
@@ -826,7 +826,7 @@
   }
 }
 
-@media only screen and (min-width: 621px) and (max-width: 640px) {
+@media only screen and (min-width: 621px) and (max-width: 641px) {
   .carrusel ul {
     max-width: 501px;
   }
@@ -836,7 +836,7 @@
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 620px) {
+@media only screen and (min-width: 601px) and (max-width: 621px) {
   .carrusel ul {
     max-width: 481px;
   }
@@ -846,7 +846,7 @@
   }
 }
 
-@media only screen and (min-width: 581px) and (max-width: 600px) {
+@media only screen and (min-width: 581px) and (max-width: 601px) {
   .carrusel ul {
     max-width: 461px;
   }
@@ -856,7 +856,7 @@
   }
 }
 
-@media only screen and (min-width: 561px) and (max-width: 580px) {
+@media only screen and (min-width: 561px) and (max-width: 581px) {
   .carrusel ul {
     max-width: 441px;
   }
@@ -866,7 +866,7 @@
   }
 }
 
-@media only screen and (min-width: 541px) and (max-width: 560px) {
+@media only screen and (min-width: 541px) and (max-width: 561px) {
   .carrusel ul {
     max-width: 421px;
   }
@@ -876,7 +876,7 @@
   }
 }
 
-@media only screen and (min-width: 521px) and (max-width: 540px) {
+@media only screen and (min-width: 521px) and (max-width: 541px) {
   .carrusel ul {
     max-width: 401px;
   }
@@ -886,7 +886,7 @@
   }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 520px) {
+@media only screen and (min-width: 501px) and (max-width: 521px) {
   .carrusel ul {
     max-width: 381px;
   }
@@ -896,7 +896,7 @@
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 500px) {
+@media only screen and (min-width: 481px) and (max-width: 501px) {
   .carrusel ul {
     max-width: 361px;
   }
@@ -906,7 +906,7 @@
   }
 }
 
-@media only screen and (min-width: 461px) and (max-width: 480px) {
+@media only screen and (min-width: 461px) and (max-width: 481px) {
   .carrusel ul {
     max-width: 401px;
   }
@@ -916,7 +916,7 @@
   }
 }
 
-@media only screen and (min-width: 441px) and (max-width: 460px) {
+@media only screen and (min-width: 441px) and (max-width: 461px) {
   .carrusel ul {
     max-width: 381px;
   }
@@ -926,7 +926,7 @@
   }
 }
 
-@media only screen and (min-width: 421px) and (max-width: 440px) {
+@media only screen and (min-width: 421px) and (max-width: 441px) {
   .carrusel ul {
     max-width: 361px;
   }
@@ -936,7 +936,7 @@
   }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 420px) {
+@media only screen and (min-width: 401px) and (max-width: 421px) {
   .carrusel ul {
     max-width: 341px;
   }
@@ -946,7 +946,7 @@
   }
 }
 
-@media only screen and (min-width: 381px) and (max-width: 400px) {
+@media only screen and (min-width: 381px) and (max-width: 401px) {
   .carrusel ul {
     max-width: 321px;
   }
@@ -956,7 +956,7 @@
   }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 380px) {
+@media only screen and (min-width: 361px) and (max-width: 381px) {
   .carrusel ul {
     max-width: 301px;
   }
@@ -966,7 +966,7 @@
   }
 }
 
-@media only screen and (min-width: 341px) and (max-width: 360px) {
+@media only screen and (min-width: 341px) and (max-width: 361px) {
   .carrusel ul {
     max-width: 281px;
   }
@@ -976,7 +976,7 @@
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 340px) {
+@media only screen and (min-width: 321px) and (max-width: 341px) {
   .carrusel ul {
     max-width: 315px;
   }
@@ -986,7 +986,7 @@
   }
 }
 
-@media only screen and (min-width: 301px) and (max-width: 320px) {
+@media only screen and (min-width: 301px) and (max-width: 321px) {
   .carrusel ul {
     max-width: 295px;
   }
@@ -996,7 +996,7 @@
   }
 }
 
-@media only screen and (min-width: 281px) and (max-width: 300px) {
+@media only screen and (min-width: 281px) and (max-width: 301px) {
   .carrusel ul {
     max-width: 275px;
   }
@@ -1006,7 +1006,7 @@
   }
 }
 
-@media only screen and (min-width: 261px) and (max-width: 280px) {
+@media only screen and (min-width: 261px) and (max-width: 281px) {
   .carrusel ul {
     max-width: 255px;
   }
@@ -1016,7 +1016,7 @@
   }
 }
 
-@media only screen and (min-width: 241px) and (max-width: 260px) {
+@media only screen and (min-width: 241px) and (max-width: 261px) {
   .carrusel ul {
     max-width: 235px;
   }
@@ -1026,7 +1026,7 @@
   }
 }
 
-@media only screen and (min-width: 221px) and (max-width: 240px) {
+@media only screen and (min-width: 221px) and (max-width: 241px) {
   .carrusel ul {
     max-width: 215px;
   }
@@ -1036,7 +1036,7 @@
   }
 }
 
-@media only screen and (min-width: 201px) and (max-width: 220px) {
+@media only screen and (min-width: 201px) and (max-width: 221px) {
   .carrusel ul {
     max-width: 195px;
   }
