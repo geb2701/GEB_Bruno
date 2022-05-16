@@ -8,19 +8,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:120px;
+    height:160px;
     nav{
         margin:0px;
         width:100%;
         ul{
             text-align: center;
-            padding: 10px;
+            padding: 0px;
             li {
-                width: 200px;
                 padding-top: 5px;
                 padding-bottom: 5px;
-                padding-left:20px;
-                padding-right:20px;
                 display: inline-block;
                 vertical-align: middle;
                 a{
@@ -71,7 +68,7 @@
     .MainHeader
     {
         font-size: 1.5rem;
-        height:260px;
+        height:280px;
         ul{
             margin-top: 0px;
             margin-bottom: 0px;
@@ -90,36 +87,50 @@
 @media only screen and (min-width: 860px) and (max-width:999px)  {
     .MainHeader
     {
-        height:155px;
         ul{
             li{
                 width: 160px auto;
-                padding-left:50px auto;
-                padding-right:50px auto;
+                padding-left:23px;
+                padding-right:23px;
             }
         }
     }
 }
-@media only screen and (min-width: 1000px) and (max-width:1379px)  {
+@media only screen and (min-width: 1000px) and (max-width:1293px)  {
     .MainHeader
     {
-        height:155px;
         ul{
             li{
                 width: 160px auto;
-        padding-left:50px;
-        padding-right:50px;
+                padding-left:37px;
+                padding-right:37px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1294px) and (max-width:1379px)  {
+    .MainHeader
+    {
+        ul{
+            li{
+                width: 150px auto;
+                padding-left:50px;
+                padding-right:50px; 
             }
         }
     }
 }
 @media only screen and (min-width: 1380px) and (max-width:1580px)  {
     .MainHeader nav ul li {
-        width: 160px;
+        width: 160px auto;
+        padding-left:55px;
+        padding-right:55px;
     }      
 }
-@media only screen and (min-width: 1581px) and (max-width:1655px)  {
+@media only screen and (min-width: 1581px) {
     .MainHeader nav ul li {
-        width: 180px;
+        width: 180px auto;
+        padding-left:60px;
+        padding-right:60px;
     }      
 }
