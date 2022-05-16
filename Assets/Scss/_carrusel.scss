@@ -48,7 +48,7 @@
     @media only screen and (min-width: ($width - $resta)) and (max-width:($width))  {
         .carrusel {
             ul {
-                max-width: $width - $resta - $padding;
+                max-width: $width - $resta - $padding -0.01px;
             }
         }
         .carrusel-fotos {
@@ -114,7 +114,6 @@ $width: $width - 28;
 @media only screen and (hover: none) and (pointer: coarse){
 
     .carrusel-fotos {   
-        overflow: auto;
         gap: 0px;
     }
     
