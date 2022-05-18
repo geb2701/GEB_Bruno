@@ -45,10 +45,10 @@
 }
 
 @mixin Media-carrusel ($width, $resta, $padding) {
-    @media only screen and (min-width: ($width - $resta)) and (max-width:($width))  {
+    @media only screen and (min-width: ($width - $resta)) and (max-width:($width - 0.01px))  {
         .carrusel {
             ul {
-                max-width: $width - $resta - $padding -0.01px;
+                max-width: $width - $resta - $padding;
             }
         }
         .carrusel-fotos {
